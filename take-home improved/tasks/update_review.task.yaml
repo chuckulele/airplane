@@ -1,0 +1,16 @@
+slug: update_review
+name: Update review
+parameters:
+- slug: review_id
+  name: Review ID
+  type: integer
+- slug: comment
+  name: Comment
+  type: shorttext
+
+sql:
+  resource: "Content Moderation DB"
+  entrypoint: update_review.sql
+  queryArgs:
+     review_id: "{{params.review_id}}"
+     comment: "{{params.comment}}"

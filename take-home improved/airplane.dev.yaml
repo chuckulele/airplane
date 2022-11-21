@@ -1,0 +1,16 @@
+configVars: {}
+resources:
+    - database: postgres
+      dsn: postgres://postgres:XAP6HrLzwVA%21sbt4@db.vniktocznhsxmodoltuc.supabase.co:5432/postgres?sslmode=require
+      host: db.vniktocznhsxmodoltuc.supabase.co
+      kind: postgres
+      name: Content Moderation DB
+      password: XAP6HrLzwVA!sbt4
+      port: "5432"
+      slug: cmd
+      sshHost: ""
+      sshPort: ""
+      sshPrivateKey: ""
+      sshUsername: ""
+      ssl: require
+      username: postgres
